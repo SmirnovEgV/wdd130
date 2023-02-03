@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap');
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -20,7 +21,15 @@
     width: 100%;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .book {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
     background-color: #c03221;
     color: white;
     text-decoration: none;
@@ -35,15 +44,27 @@
     text-align: center;
 }
 
+.card-img {
+    border: 10px solid #f2d0a4;
+}
+
 .home-title {
+    font-family: Open sans, Georgia, arial;
+    font-size: 2em;
+    margin-top: 10px;
     color: #545e75;
 }
 
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 
 .join {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
     background-color: #c03221;
     color: white;
     text-decoration: none;
@@ -59,22 +80,50 @@
 }
 
 .msg {
+    padding: 35px;
+    line-height: 1.5em;
     background-color: #f2d0a4;
 }
 
 .msg h2 {
+    font-family: Open sans, Georgia, arial;
     color: #545e75;
 }
 
 .msg p {
+    padding-bottom: 15px;
+    font-size: .8em;
     color: #545e75;
 }
 
+.social img {
+    padding-top: 15px;
+}
+
+.river-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
 body {
+    font-family: Oswald, sans-serif, arial;
+    font-size: 22px;
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
     background-color: #f2d0a4;
     color: #545e75;
 }
@@ -100,6 +149,10 @@ header {
     background-color: #f2d0a4;
 }
 
+h2 {
+    margin: 0;
+}
+
 h4 {
     color: #545e75;
 }
@@ -108,7 +161,12 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 nav a {
+    padding: 35px;
     text-align: center;
     color: #545e75;
     text-decoration: none;

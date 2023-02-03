@@ -1,0 +1,19 @@
+body {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+header {
+    width: auto;
+}
+
+main {
+    background-color: rgb(83, 86, 88);
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 10px solid darkgray;
+    border-radius: 50%;
+}
