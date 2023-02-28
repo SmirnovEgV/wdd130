@@ -47,6 +47,14 @@
     padding-top: 5px;
 }
 
+#rivers-title {
+    text-align: center;
+    font-family: Open sans, Georgia, arial;
+    font-size: 1.2em;
+    color: #f2d0a4;
+    border-bottom: 4px solid #545e75;
+}
+
 .book {
     font-size: 18px;
     padding: 15px 30px;
