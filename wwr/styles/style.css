@@ -48,11 +48,27 @@
 }
 
 #rivers-title {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
     text-align: center;
     font-family: Open sans, Georgia, arial;
-    font-size: 1.2em;
-    color: #f2d0a4;
+    font-size: 1.4em;
+    color: #c03221;
     border-bottom: 4px solid #545e75;
+}
+
+#rivers-title h1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#rivers-title img {
+    width: 100%;
+    max-height: 250px;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
 }
 
 .book {
