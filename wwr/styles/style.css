@@ -382,6 +382,7 @@ nav a:hover {
 
 @media screen and (max-width: 900px) {
     #hero,
+    #rivers-title,
     .home-grid {
         display: block;
         height: auto;
@@ -397,11 +398,22 @@ nav a:hover {
     #hero {
         margin-top: 0;
     }
+    #rivers-title {
+        margin-top: 0;
+    }
     #hero-msg {
         margin-top: 0;
     }
     #hero-msg h4 {
         display: none;
+    }
+    .rivers-info {
+        margin: 50px auto;
+        width: 80%;
+        text-size-adjust: auto;
+    }
+    .rivers-info h2 {
+        font-size: 0.9em;
     }
     .home-title {
         font-size: 25px;
