@@ -55,3 +55,46 @@ nav a:hover {
     background-color: #F58549;
     color: #772F1A;
 }
+
+
+/*footer part*/
+
+footer {
+    background-color: #585123;
+    color: #F2A65A;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    padding: 25px;
+    padding-left: 70px;
+    display: grid;
+    grid-template-columns: 270px 1fr 250px 200px;
+    gap: 15px;
+}
+
+.copyplan {
+    display: inline-block;
+    margin: 5px;
+    padding-top: 30px;
+}
+
+.copyplan p {
+    margin-top: 10px;
+}
+
+.social {
+    grid-column: 3/4;
+    padding-top: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer img {
+    max-width: 80%;
+    height: auto;
+}
+
+#logo_link {
+    display: inline-block;
+    vertical-align: middle;
+}
