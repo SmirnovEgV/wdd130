@@ -150,4 +150,10 @@ section img {
     max-width: 100%;
     height: auto;
     border: 10px solid #F58549;
+    transition: transform .9s;
+    box-shadow: 10px 10px 10px #772F1A;
+}
+
+section img:hover {
+    transform: scale(1.2);
 }
