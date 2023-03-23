@@ -37,7 +37,12 @@
       </section>
       <div class="prodlist">
         <div class="product-item">
-          <img src="pic/Pistol1.png" alt="P series">
+          <img class="myimg" src="pic/Pistol1.png" alt="P series">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <h3>P226 SIG</h3>
           <p>
             Manufacturers: SIG SAUER
@@ -49,7 +54,12 @@
         </div>
 
         <div class="product-item">
-          <img src="pic/smg.png" alt="Vector style SMG">
+          <img class="myimg" src="pic/smg.png" alt="Vector style SMG">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <h3>KRISS Vector</h3>
           <p>Manufacturers: Kriss USA
             <br>Firing mode: Full-auto, Semi-auto
@@ -60,7 +70,12 @@
         </div>
 
         <div class="product-item">
-          <img src="pic/assaultrifle.png" alt="AK style Rifle">
+          <img class="myimg" src="pic/assaultrifle.png" alt="AK style Rifle">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <h3>AKM</h3>
           <p>Manufacturers: Tula Arms Plant
             <br>Firing mode: Full-auto, Semi-auto
@@ -71,7 +86,12 @@
         </div>
 
         <div class="product-item">
-          <img src="pic/assaultrifle1.png" alt="AR style rifle">
+          <img class="myimg" src="pic/assaultrifle1.png" alt="AR style rifle">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <h3>FTAC Recon AR-16 </h3>
           <p>Manufacturers: T&C Ltd
             <br>Firing mode: Semi-auto
@@ -82,7 +102,12 @@
         </div>
 
         <div class="product-item">
-          <img src="pic/hrifle.png" alt="Rifle without scope">
+          <img class="myimg" src="pic/hrifle.png" alt="Rifle without scope">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <h3>SP-R 208</h3>
           <p>Manufacturers: Remington Arms
             <br>Firing mode: Semi-auto
@@ -115,6 +140,33 @@
       </a>
     </footer>
   </div>
+  <!-- Modal imgs for an assignment-->
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgs = document.getElementsByClassName("myimg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    for (var i = 0; i < imgs.length; i++) {
+      var img = imgs[i];
+
+      img.onclick = function (evt) {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+    }
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+  </script>
 </body>
 
 </html>
