@@ -373,3 +373,49 @@ h3 {
         width: 100%;
     }
 }
+
+
+/*responsiveness added*/
+
+@media screen and (max-width: 1000px) {
+    nav,
+    footer {
+        flex-direction: column;
+    }
+    header {
+        display: block;
+        position: relative;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+        background-color: #585123;
+    }
+    h1 {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        font-size: 1.8em;
+    }
+    .bodysection {
+        display: block;
+    }
+    .bodysection img {
+        max-width: 70%;
+        height: auto;
+        border: 10px solid #F58549;
+        transition: transform .9s;
+        box-shadow: 10px 10px 10px #772F1A;
+        margin: 10px 10px;
+    }
+    .bodysection img:hover {
+        transform: scale(1.2);
+    }
+    footer {
+        display: block;
+        margin-top: 25px;
+        padding: 25px 25px;
+    }
+}
