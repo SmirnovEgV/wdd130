@@ -179,7 +179,7 @@ h2 {
 }
 
 .prodlist img {
-    max-width: 500px;
+    max-width: 100%;
     height: auto;
     min-width: 350px;
     min-height: 210px;
@@ -189,7 +189,7 @@ h2 {
 
 .product-item {
     display: grid;
-    grid-template-columns: 510px 150px 1fr 100px;
+    grid-template-columns: 4fr 1fr 5fr 1fr;
     padding: 10px 30px;
     align-items: center;
 }
@@ -240,6 +240,8 @@ h3 {
 }
 
 .map img {
+    max-width: 100%;
+    max-height: auto;
     border: 10px solid #585123;
 }
 
