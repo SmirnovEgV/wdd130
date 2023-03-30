@@ -416,6 +416,23 @@ h3 {
         margin-top: 25px;
         padding: 25px 25px;
     }
+    /*prod page*/
+    .prodlist {
+        background-color: transparent;
+        border: transparent;
+        margin: auto;
+    }
+    .product-item {
+        display: block;
+        border: 5px solid #772F1A;
+        margin: 10px;
+        background-color: #585123;
+    }
+    .prodlist img {
+        max-width: 100%;
+        min-width: auto;
+        min-height: min-content;
+    }
     /*orders page*/
     .lowerpart {
         display: block;
