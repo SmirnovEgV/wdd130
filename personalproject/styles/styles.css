@@ -418,4 +418,13 @@ h3 {
         margin-top: 25px;
         padding: 25px 25px;
     }
+    /*orders page*/
+    .lowerpart {
+        display: block;
+        text-align: center;
+    }
+    .additional,
+    .contacts {
+        margin-left: auto;
+    }
 }
