@@ -417,6 +417,9 @@ h3 {
         padding: 25px 25px;
     }
     /*prod page*/
+    .prodintro {
+        padding: 20px 20px;
+    }
     .prodlist {
         background-color: transparent;
         border: transparent;
@@ -441,5 +444,8 @@ h3 {
     .additional,
     .contacts {
         margin-left: auto;
+    }
+    .orderintro {
+        padding: 20px 20px;
     }
 }
